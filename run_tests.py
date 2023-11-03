@@ -1,4 +1,4 @@
-"""docstring TODO"""
+"""Run an example test case (user making requests to the API endpoint)"""
 
 import datetime
 import time
@@ -23,9 +23,9 @@ for user_id, wait_secs in (
     request_time: str = datetime.datetime.now().strftime("%H:%M:%S")
     response = requests.get(f"http://localhost:8000/{user_id}")
     print(
-        "user_id=" + user_id,
-        "request at " + request_time,
-        "response code: " + str(response.status_code),
-        "n_tokens: " + response.text,
+        f"user_id={user_id}",
+        f"request@{request_time}",
+        f"response_status_code: {response.status_code}",
+        response.text,
     )
     time.sleep(wait_secs)
