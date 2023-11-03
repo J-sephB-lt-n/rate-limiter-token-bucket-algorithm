@@ -20,7 +20,7 @@ def v1(user_id: str, redis_db) -> bool:
     # get user request history from local redis db #
     user_request_hist: dict[str, int] = redis_db.hgetall(user_id)
 
-    # add this user to the local redis db if they are not there
+    # add this user to the local redis db if they are not there #
     if not user_request_hist:
         redis_db.hset(
             user_id,
