@@ -1,7 +1,11 @@
 # rate-limiter-token-bucket-algorithm
 An example implementation of the [token-bucket algorithm]() for API rating-limiting, using python, redis and FastAPI.
 
-The concept is very simple: users acquire tokens at a fixed rate (up to a maximum number of tokens) and then consume a single token with each API request. If a user has no tokens at request time, then they receive a **429: Too Many Requests** response to their request. This could be extended to allow for different request sizes to consume different numbers of tokens (or fractions of tokens). 
+The concept is very simple: Users acquire tokens at a fixed rate (up to a maximum number of tokens) and then consume a single token with each API request. If a user has no tokens at request time, then they receive a 
+
+**429: Too Many Requests** 
+
+response to their request. This algorithm could be adapted to allow for different request sizes to consume different numbers of tokens (or fractions of tokens). 
 
 Start redis database and fastAPI servers in the background:
 

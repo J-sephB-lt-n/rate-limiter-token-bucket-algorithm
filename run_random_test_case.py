@@ -1,4 +1,4 @@
-"""Run an example test case (user making requests to the API endpoint)"""
+"""Run a random test case (user making multiple requests to the API endpoint)"""
 
 # standard lib imports #
 import datetime

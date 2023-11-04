@@ -1,4 +1,4 @@
-"""Set up connection to local REDIS database"""
+"""Set up local REDIS database"""
 
 import redis
 

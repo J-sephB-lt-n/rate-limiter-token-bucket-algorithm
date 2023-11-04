@@ -25,7 +25,7 @@ app = FastAPI()
 
 @app.get("/{user_id}")
 def does_nothing(user_id):
-    """Request which does nothing"""
+    """Endpoint which does nothing"""
     logger.info("initiated request: user_id='%s'", user_id)
 
     if rate_limit_user.v1(user_id, redis_db):
