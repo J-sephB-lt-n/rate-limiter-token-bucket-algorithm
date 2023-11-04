@@ -16,26 +16,26 @@ Run a simple test case:
 python run_random_test_case.py
 ```
 ```
-user_id=joe request@13:14:37 response_status_code: 200 response: OK
-user_id=joe request@13:14:38 response_status_code: 200 response: OK
-user_id=joe request@13:14:40 response_status_code: 200 response: OK
-user_id=joe request@13:14:41 response_status_code: 200 response: OK
-user_id=joe request@13:14:43 response_status_code: 200 response: OK
-user_id=joe request@13:14:44 response_status_code: 200 response: OK
-user_id=joe request@13:14:45 response_status_code: 200 response: OK
-user_id=joe request@13:14:46 response_status_code: 200 response: OK
-user_id=joe request@13:14:47 response_status_code: 429 response: Too Many Requests
-user_id=joe request@13:14:49 response_status_code: 200 response: OK
-user_id=joe request@13:14:49 response_status_code: 429 response: Too Many Requests
-user_id=joe request@13:14:50 response_status_code: 429 response: Too Many Requests
-user_id=joe request@13:14:50 response_status_code: 429 response: Too Many Requests
-user_id=joe request@13:14:51 response_status_code: 429 response: Too Many Requests
-user_id=joe request@13:14:52 response_status_code: 200 response: OK
-user_id=joe request@13:14:54 response_status_code: 429 response: Too Many Requests
-user_id=joe request@13:14:54 response_status_code: 429 response: Too Many Requests
-user_id=joe request@13:14:54 response_status_code: 429 response: Too Many Requests
-user_id=joe request@13:14:56 response_status_code: 200 response: OK
-user_id=joe request@13:14:57 response_status_code: 429 response: Too Many Requests
+user_id=joe request@21:02:33 response_status_code: 200 response: OK
+user_id=joe request@21:02:33 response_status_code: 200 response: OK
+user_id=joe request@21:02:34 response_status_code: 200 response: OK
+user_id=joe request@21:02:35 response_status_code: 200 response: OK
+user_id=joe request@21:02:36 response_status_code: 200 response: OK
+user_id=joe request@21:02:37 response_status_code: 200 response: OK
+user_id=joe request@21:02:37 response_status_code: 429 response: Too Many Requests
+user_id=joe request@21:02:38 response_status_code: 429 response: Too Many Requests
+user_id=joe request@21:02:39 response_status_code: 200 response: OK
+user_id=joe request@21:02:40 response_status_code: 429 response: Too Many Requests
+user_id=joe request@21:02:41 response_status_code: 429 response: Too Many Requests
+user_id=joe request@21:02:43 response_status_code: 200 response: OK
+user_id=joe request@21:02:44 response_status_code: 429 response: Too Many Requests
+user_id=joe request@21:02:45 response_status_code: 200 response: OK
+user_id=joe request@21:02:47 response_status_code: 429 response: Too Many Requests
+user_id=joe request@21:02:48 response_status_code: 200 response: OK
+user_id=joe request@21:02:49 response_status_code: 429 response: Too Many Requests
+user_id=joe request@21:02:50 response_status_code: 429 response: Too Many Requests
+user_id=joe request@21:02:52 response_status_code: 200 response: OK
+user_id=joe request@21:02:53 response_status_code: 429 response: Too Many Requests
 ```
 
 Stop the redis database and fastAPI servers, and clean up:
