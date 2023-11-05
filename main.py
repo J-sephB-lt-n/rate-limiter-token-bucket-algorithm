@@ -3,13 +3,13 @@ The main entry script, defining the FastAPI endpoint
 """
 
 # standard lib imports #
-import config
 import logging
 
 # 3rd party imports #
 from fastapi import FastAPI, HTTPException
 
 # project module imports #
+import config
 from connect_to_local_redis_db import redis_db
 import rate_limit_user
 
